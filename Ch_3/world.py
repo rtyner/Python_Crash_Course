@@ -2,5 +2,10 @@ locations = ['china', 'france', 'rome', 'georgia', 'scotland']
 print(locations)
 print(sorted(locations))
 print(locations)
-print(sorted(locations))
-
+loc = sorted(locations, reverse=True)
+print(loc)
+print(locations)
+locations.reverse()
+print(locations)
+locations.reverse()
+print(locations)
