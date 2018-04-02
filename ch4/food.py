@@ -1,11 +1,17 @@
-my_foods = ['pizza', 'tacos', 'indian']
+my_foods = ['pizza', 'indian', 'dim sum']
 friend_foods = my_foods[:]
-my_foods.append('cheesecake')
-friend_foods.append('ice cream')
-
 
 print("My favorite foods are:")
 print(my_foods)
 
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
+
+my_foods.append('tacos')
+friend_foods.append('ice cream')
+
+print("\nMy friend's favorite foods are:")
+print(friend_foods)
+
+print("My favorite foods are:")
+print(my_foods)
