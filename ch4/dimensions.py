@@ -10,6 +10,7 @@ for dimension in dimensions:
     print(dimension)
 
 dimensions = (400, 100)
-print("\Modified dimensions:")
+print("\nModified dimensions:")
 for dimension in dimensions:
     print(dimension)
+    
