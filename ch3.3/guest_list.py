@@ -11,3 +11,5 @@ del guests[1]
 
 for guest in guests:
     print('The final list is: ' + guest.title() + ".")
+
+print("The number of people attending is " + str(len(guests)) + ".")
