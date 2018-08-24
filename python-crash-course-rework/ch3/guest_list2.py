@@ -20,3 +20,16 @@ guests.insert(2, 'yasin')
 
 for guest in guests:
     print("Welcome to dinner " + guest.title())
+
+print("Only two people can come to dinner")
+
+print("Sorry " + guests.pop(0) + " no dinner for you")
+guests.pop(1)
+guests.pop(-1)
+guests.pop(-2)
+print(guests)
+
+del guests[0]
+del guests[-1]
+
+print(len(guests))

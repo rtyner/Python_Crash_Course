@@ -1,0 +1,1 @@
+distros = ['void', 'arch', 'slackware',' centos', 'debian']
