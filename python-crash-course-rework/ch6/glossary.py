@@ -7,3 +7,4 @@ glossary = {
 }
 
 print("A string is a: " + glossary['string'])
+print("An int is a: " + glossary['int'])
