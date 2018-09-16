@@ -1,10 +1,11 @@
 glossary = {
-    'string': 'simple string of text',
-    'int': 'integer',
-    'float': 'floating point number',
-    'dictionary': 'set of key values',
+    'string': 'a simple string of text',
+    'int': 'an integer',
+    'float': 'a floating point number',
+    'dictionary': 'a set of key values',
     'library': 'modules that can be imported to add functionality'
 }
 
-print("A string is a: " + glossary['string'])
-print("An int is a: " + glossary['int'])
+for name, text in glossary.items():
+    if name in glossary != 'int':
+        print("A " + name.title() + " is: " + text)
