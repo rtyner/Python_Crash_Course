@@ -7,5 +7,8 @@ favorite_languages = {
 
 people = ['jen', 'sarah', 'steven', 'mike', 'tony']
 
-for people in favorite_languages.keys():
-    print(people)
+for name in people:
+    if name in favorite_languages:
+        print("Thanks, " + name.title() + " you have already taken the poll")
+    else:
+        print(name.title() + ", Please take the language poll.")
